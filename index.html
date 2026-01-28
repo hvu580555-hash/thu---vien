@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư viện Hiếu Vũ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f4f6f8;
+        }
+
+        header {
+            background: #1f2f46;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            padding: 15px;
+        }
+
+        footer {
+            background: #1f2f46;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📚 Thư viện Hiếu Vũ</h1>
+    <p>Kho sách – truyện – tài liệu học tập</p>
+</header>
+
+<div class="container">
+    <a href="trang.html" class="card">
+        <img src="images/anh1.jpg">
+        <h3>Sách hay</h3>
+    </a>
+
+    <a href="trang.html" class="card">
+        <img src="images/anh2.jpg">
+        <h3>Truyện đọc</h3>
+    </a>
+
+    <a href="trang.html" class="card">
+        <img src="images/anh3.jpg">
+        <h3>Sách học tập</h3>
+    </a>
+</div>
+
+<footer>
+    © 2026 Thư viện Hiếu Vũ
+</footer>
+
+</body>
+</html>
